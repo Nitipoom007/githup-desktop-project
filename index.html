@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Tite</Title></Title></title>
+    <title>Page Tite</title>
+    <style>
+        input:focus {
+            background-color: blue;
+        }
+    </style>
 </head>
 <body >
-    <table style="border: 5px solid black;width: 20%;">
-        <tr><th>ID</th><th>Name</th></tr>
-        <tr><td>001</td><td>Nitipoom</td></tr>
-        <tr><td>002</td><td>LSK</td></tr>
-        <tr><td>003</td><td>DCK</td></tr>
-    </table>
+    <form>
+        Phone: <input type="tel"><br>
+        e-mail: <input type="email" disabled="disabled">
+    </form>
 </body>
 </html>
